@@ -33,7 +33,5 @@ return require("packer").startup(function()
   use 'leoluz/nvim-dap-go'
   use 'theHamsta/nvim-dap-virtual-text'
 
-  use 'tjdevries/colorbuddy.vim'
-  use 'Th3Whit3Wolf/onebuddy'
-
+  use 'christianchiarulli/nvcode-color-schemes.vim'
 end)

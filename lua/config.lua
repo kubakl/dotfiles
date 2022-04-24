@@ -1,5 +1,6 @@
 HOME = os.getenv("HOME")
 
+vim.cmd("colorscheme onedark")
 vim.cmd("syntax on")
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
@@ -33,7 +34,6 @@ vim.opt.splitbelow = true
 
 vim.g.mapleader = " "
 vim.g.rainbow_active = 1
-require('colorbuddy').colorscheme('onebuddy')
 
 -- Import other modules
 require("plugins/init")
