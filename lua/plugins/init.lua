@@ -34,4 +34,5 @@ return require("packer").startup(function()
   use 'theHamsta/nvim-dap-virtual-text'
 
   use 'christianchiarulli/nvcode-color-schemes.vim'
+  use 'skanehira/preview-markdown.vim'
 end)

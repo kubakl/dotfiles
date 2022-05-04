@@ -24,3 +24,5 @@ vim.api.nvim_set_keymap("n", "dsi", ":lua require'dap'.step_into()<CR>", { norem
 vim.api.nvim_set_keymap("n", "dst", ":lua require'dap'.step_out()<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<leader>tb", ":lua require'dap'.toggle_breakpoint()<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<leader>dt", ":lua require'dap-go'.debug_test()<CR>", { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap("n", "<leader>mp", ":PreviewMarkdown right<CR>", { noremap = true, silent = true })
