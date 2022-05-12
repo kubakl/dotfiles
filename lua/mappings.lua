@@ -4,7 +4,7 @@ vim.api.nvim_set_keymap("n", "<Leader>df", ":Telescope lsp_definitions<CR>", { n
 vim.api.nvim_set_keymap("n", "<Leader>hm", ":lua require(\"harpoon.mark\").add_file()<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>hf", ":lua require(\"harpoon.ui\").toggle_quick_menu()<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>hn", ":lua require(\"harpoon.ui\").nav_next()<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<Leader>hp", ":lua require(\"harpoon.ui\").nav_pre()<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Leader>hp", ":lua require(\"harpoon.ui\").nav_prev()<CR>", { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap("n", "<Leader>ga", ":Git add .<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>gc", ":Git commit<CR>", { noremap = true, silent = true })
