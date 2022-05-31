@@ -69,7 +69,7 @@ ls.add_snippets("go", {
   ls.snippet("interface", {
     ls.text_node("type "),
     ls.insert_node(1),
-    ls.text_node("interface"),
+    ls.text_node(" interface "),
     ls.text_node("{"),
     ls.insert_node(0),
     ls.text_node("}"),
