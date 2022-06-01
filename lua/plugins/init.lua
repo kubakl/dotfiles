@@ -36,4 +36,5 @@ return require("packer").startup(function()
 
   use 'christianchiarulli/nvcode-color-schemes.vim'
   use 'skanehira/preview-markdown.vim'
+  use 'mustache/vim-mustache-handlebars'
 end)
