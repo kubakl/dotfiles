@@ -21,12 +21,3 @@ vim.api.nvim_set_keymap("n", "<C-H>", "<C-W><C-H>", { noremap = true, silent = t
 
 vim.api.nvim_set_keymap("n", "<Leader>vs", ":vs<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>sp", ":sp<CR>", { noremap = true, silent = true })
-
-vim.api.nvim_set_keymap("n", "dc", ":lua require'dap'.continue()<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "dso", ":lua require'dap'.step_over()<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "dsi", ":lua require'dap'.step_into()<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "dst", ":lua require'dap'.step_out()<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>tb", ":lua require'dap'.toggle_breakpoint()<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>dt", ":lua require'dap-go'.debug_test()<CR>", { noremap = true, silent = true })
-
-vim.api.nvim_set_keymap("n", "<leader>mp", ":PreviewMarkdown right<CR>", { noremap = true, silent = true })

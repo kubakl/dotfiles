@@ -27,16 +27,5 @@ return require("packer").startup(function()
   use 'fatih/vim-go'
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
-  
-  use 'mfussenegger/nvim-dap'
-  use 'nvim-telescope/telescope-dap.nvim'
-  use 'rcarriga/nvim-dap-ui'
-  use 'leoluz/nvim-dap-go'
-  use 'theHamsta/nvim-dap-virtual-text'
-
-  use 'christianchiarulli/nvcode-color-schemes.vim'
-  use 'skanehira/preview-markdown.vim'
-  use 'mustache/vim-mustache-handlebars'
-
-  use 'github/copilot.vim'
+  use 'navarasu/onedark.nvim'
 end)
