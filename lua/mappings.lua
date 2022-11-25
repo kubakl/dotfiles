@@ -12,7 +12,7 @@ vim.api.nvim_set_keymap("n", "<Leader>gp", ":Git push<CR>", { noremap = true, si
 vim.api.nvim_set_keymap("n", "<Leader>gb", ":Git blame<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>gs", ":Git status<CR>", { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap("n", "<Leader>nt", ":NERDTree<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Leader>nt", ":NvimTreeOpen<CR>", { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap("n", "<C-J>", "<C-W><C-J>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-K>", "<C-W><C-K>", { noremap = true, silent = true })

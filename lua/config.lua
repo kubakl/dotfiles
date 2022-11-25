@@ -1,6 +1,6 @@
 HOME = os.getenv("HOME")
 
-vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme gruvbox")
 vim.cmd("syntax on")
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
@@ -34,6 +34,8 @@ vim.opt.splitbelow = true
 
 vim.g.mapleader = " "
 vim.g.rainbow_active = 1
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 -- Import other modules
 require("plugins/init")
@@ -42,3 +44,4 @@ require("plugins/lualine")
 require("plugins/telescope")
 require("plugins/treesitter")
 require("plugins/snippet")
+require("plugins/tree")
