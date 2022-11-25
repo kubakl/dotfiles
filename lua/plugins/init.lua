@@ -1,13 +1,11 @@
 return require("packer").startup(function()
   use 'luochen1990/rainbow'                                                           
   use {'roxma/nvim-cm-tern',  run = 'npm install'}
-  use 'preservim/nerdtree'
   use 'scrooloose/nerdcommenter'
   use 'tpope/vim-fugitive'
   use { 'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true } }
   use 'arkav/lualine-lsp-progress'
   use 'ryanoasis/vim-devicons'
-  use 'tiagofumo/vim-nerdtree-syntax-highlight'
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   use 'tpope/vim-surround'
   use 'jiangmiao/auto-pairs'
@@ -15,7 +13,7 @@ return require("packer").startup(function()
   
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
-  use {'nvim-telescope/telescope-fzf-native.nvim',  run = 'make' }
+  use {'nvim-telescope/telescope-fzy-native.nvim' }
   use 'ThePrimeagen/harpoon'
   
   use 'hrsh7th/nvim-cmp'
@@ -28,6 +26,4 @@ return require("packer").startup(function()
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
   use 'navarasu/onedark.nvim'
-
-  use {'akinsho/git-conflict.nvim', tag = "*", config = function() require('git-conflict').setup() end}
 end)
