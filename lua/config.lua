@@ -40,6 +40,7 @@ vim.g.loaded_netrwPlugin = 1
 -- Import other modules
 require("plugins/init")
 require("plugins/cmp")
+require("plugins/git")
 require("plugins/lualine")
 require("plugins/telescope")
 require("plugins/treesitter")
