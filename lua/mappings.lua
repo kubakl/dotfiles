@@ -22,9 +22,9 @@ vim.api.nvim_set_keymap("n", "<C-H>", "<C-W><C-H>", { noremap = true, silent = t
 vim.api.nvim_set_keymap("n", "<Leader>vs", ":vs<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>sp", ":sp<CR>", { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap('n', '<Leader>co', ':GitConflictOurs<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Leader>ct', ':GitConflictTheirs<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Leader>cb', ':GitConflictBoth<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Leader>cn', ':GitConflictNone<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>co', ':GitConflictChooseOurs<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>ct', ':GitConflictChooseTheirs<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>cb', ':GitConflictChooseBoth<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>cn', ':GitConflictChooseNone<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>pc', ':GitConflictPrevConflict<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>nc', ':GitConflictNextConflict<CR>', { noremap = true, silent = true })
