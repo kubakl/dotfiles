@@ -20,6 +20,7 @@ return require("packer").startup(function()
   use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-nvim-lsp-signature-help'
   use 'williamboman/nvim-lsp-installer'
   use 'fatih/vim-go'
   use 'L3MON4D3/LuaSnip'

@@ -39,6 +39,7 @@ cmp.setup({
     { name = 'luasnip' },
     { name = 'path' },
     { name = 'buffer' },
+    { name = 'nvim_lsp_signature_help' },
   },
   snippet = {
     expand = function(args)
