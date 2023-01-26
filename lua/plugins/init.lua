@@ -28,4 +28,5 @@ return require("packer").startup(function()
   use { "ellisonleao/gruvbox.nvim" }
   use { 'nvim-tree/nvim-tree.lua', requires = { 'nvim-tree/nvim-web-devicons' }}
   use {'akinsho/git-conflict.nvim', tag = "*", config = function() require('git-conflict').setup() end}
+  use { 'tpope/vim-abolish' }
 end)
