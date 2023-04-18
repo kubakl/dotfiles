@@ -29,4 +29,13 @@ return require("packer").startup(function()
   use { 'nvim-tree/nvim-tree.lua', requires = { 'nvim-tree/nvim-web-devicons' }}
   use {'akinsho/git-conflict.nvim', tag = "*", config = function() require('git-conflict').setup() end}
   use { 'tpope/vim-abolish' }
+  use {
+    "nvim-neotest/neotest",
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "nvim-neotest/neotest-go",
+      "nvim-treesitter/nvim-treesitter",
+      "antoinemadec/FixCursorHold.nvim"
+    }
+  }
 end)
