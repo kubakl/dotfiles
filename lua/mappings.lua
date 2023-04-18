@@ -6,8 +6,8 @@ vim.api.nvim_set_keymap("n", "<Leader>hf", ":lua require(\"harpoon.ui\").toggle_
 vim.api.nvim_set_keymap("n", "<Leader>hn", ":lua require(\"harpoon.ui\").nav_next()<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>hp", ":lua require(\"harpoon.ui\").nav_prev()<CR>", { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap("n", "<Leader>tf", ":lua require(\"neotest\").run.run(vim.fn.expand('%'))<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<Leader>tc", ":lua require(\"neotest\").run.run()<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Leader>tf", ":lua require(\"neotest\").run.run(vim.fn.expand('%'))<CR>:lua require(\"neotest\").output_panel.open()<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Leader>tc", ":lua require(\"neotest\").run.run()<CR>:lua require(\"neotest\").output_panel.open()<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Leader>to", ":lua require(\"neotest\").summary.open()<CR>", { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap("n", "<Leader>ga", ":Git add .<CR>", { noremap = true, silent = true })
